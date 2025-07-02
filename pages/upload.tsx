@@ -1,0 +1,1 @@
+export default function Upload() { return <h1>Upload Your Audio/Video</h1> }

@@ -1,0 +1,1 @@
+export default function Home() { return <h1>Welcome to Upload Once, Distro Everywhere</h1> }
