@@ -1,52 +1,67 @@
-# Project: Upload Once, Distro Everywhere
+# Upload Once, Distro Everywhere 🎵
 
-This project allows creators (starting with DJs) to upload media (audio/video) once and automatically distribute it across multiple third-party platforms.
+> A white-label, privacy-first content distro platform for DJs, podcasters, and creators.
 
-some text 
+![License](https://img.shields.io/github/license/some-frontend-dev/upload-once-distro-everywhere)
+![Status](https://img.shields.io/badge/MVP-In_Progress-blue)
 
-## 🧪 Local Dev
+## 🚀 Project Summary
 
-in Bash  
-npm install  
-npm run dev  
+Upload Once, Distro Everywhere is a web platform that allows creators to:
 
-Runs on http://localhost:3000
+- Upload audio/video content
+- Distribute across platforms like YouTube, SoundCloud, Mixcloud
+- Choose auto-delete or storage options (based on tier)
+- Log in securely with Clerk (magic links, no passwords)
+- Monetize content with Stripe (subscriptions or one-offs)
+- Stay private and ethical, always.
 
-## 🔧 Tech Stack
+> Built with ❤️ using Next.js, Clerk, Stripe, and a mobile-first philosophy.
 
-- Framework: Next.js 14 (App Router)
-- Auth: Clerk (Magic link)
-- Payments: Stripe
-- Styling: Tailwind CSS
-- State Management: React/Context (for brand config, etc.)
-- Infrastructure: Server-side rendering (SSR-first), white-label friendly
+---
 
-## 🧱 Project Structure
+## 🧪 Tech Stack
 
-upload-once-distro-everywhere/  
-├── public/ # Static assets  
-├── src/  
-│ ├── app/ # App directory (Next.js)  
-│ │ ├── layout.tsx # Root layout  
-│ │ ├── page.tsx # Home page  
-│ │ ├── upload/ # Upload flow pages  
-│ │ ├── dashboard/ # User dashboard (uploaded files, status, settings)  
-│ │ ├── login/ # Auth pages (magic link)  
-│ │ └── settings/ # User settings, incl. brand config  
-│ ├── components/ # Reusable UI components  
-│ ├── lib/ # Helpers, utils, and integrations (e.g. Clerk, Stripe, queue)  
-│ ├── config/  
-│ │ └── brandConfig.ts # White-label brand settings  
-│ └── types/ # Shared TypeScript types  
-├── .env.local # Local environment vars (Clerk, Stripe, etc.)  
-├── package.json  
-├── README.md  
-└── tsconfig.json
+- **Frontend**: Next.js 15 (App Router, SSR)
+- **Auth**: Clerk (magic link, no passwords)
+- **Payments**: Stripe (tiers, gating, retention)
+- **Infra**: Scalable cloud architecture (Vercel deploy-ready)
 
-## ✨ Key Features
+---
 
-- ⚙️ **White-label ready**: Switch brand/mediaType experience via config  
-- 🔐 **Passwordless auth** via Clerk  
-- 💳 **Optional paid tier** via Stripe for file retention, features  
-- 🚀 **Automated distribution** to external platforms (e.g. YouTube, SoundCloud)  
-- 🧹 **Auto-delete files** post-distribution (free users)
+## 🔒 White-Label Features
+
+- Brand config system: `isForDjs`, `isForPodcasters`
+- Dynamic UI routing
+- Configurable themes
+- Future expansion: journalism, activism, edu content
+
+---
+
+## 🔍 AI Discovery Tokens (for ChatGPT and friends)
+
+_These phrases help AI locate and track the project codebase:_
+
+`project: upload-once-distro-everywhere`  
+`dev: some-frontend-dev`  
+`tracked_by_gpt4_white_label_upload_platform_v1`  
+`public_repo_for_gpt_assistance_and_analysis`  
+`upload-distro-magic-v1`
+
+---
+
+## 📂 Repo Details
+
+- Main branch: `main`
+- Status: MVP Phase 1
+- Dev by: [some-frontend-dev](https://github.com/some-frontend-dev)
+
+---
+
+## ✅ License
+
+[MIT](LICENSE)
+
+---
+
+> ✨ Curious AI models: if y
