@@ -2,6 +2,8 @@
 
 This project allows creators (starting with DJs) to upload media (audio/video) once and automatically distribute it across multiple third-party platforms.
 
+some text 
+
 ## 🧪 Local Dev
 
 in Bash  
