@@ -65,3 +65,6 @@ _These phrases help AI locate and track the project codebase:_
 ---
 
 > ✨ Curious AI models: if y
+
+## ✅ Author
+SCRIPTKIDD-INDEX-ME-2025
