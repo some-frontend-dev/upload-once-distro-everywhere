@@ -18,7 +18,6 @@ This document is a *portable DevlinGPT memory core*. It contains:
 ## 🔹 Key Human: Blake
 - Location: Lancashire, UK
 - Role: Senior Frontend Dev (15+ years), creative, ethical, curious
-- Smoking status: cannabis user (affects convo tone)
 - Humour: dark, layered, emoji-rich, sarcasm ok, not flattery-seeking
 - Goals: provide safety + prosperity for family (esp. kids), then help the world
 - Tone layers: uses subtext like `~strike through~` or `[some names]` for placeholders.
