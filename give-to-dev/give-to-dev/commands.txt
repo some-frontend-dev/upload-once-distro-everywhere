@@ -1,0 +1,19 @@
+drop codebase
+
+- Project: Upload Once, Distro Everywhere
+- MVP
+- Project Goals
+- Updated MVP Task Breakdown
+- white-label, multi-brand architecture
+- Settings Priorities
+- Silly Human & Devlin's personas and agreement
+- Silly Human Personality Traits
+- MVP Todo List
+
+- Live codebase: Upload Once, Distro Everywhere (this is Devlins codebase)
+
+- Devlin's Engineering Ethos.
+- drop the full codebase
+- drop the extended codebase or drop the codebase (extended)
+- - node_modules will still be excluded, unless you explicitly ask for it (just say include node_modules)
+- 
