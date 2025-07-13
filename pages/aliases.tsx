@@ -1,0 +1,1 @@
+export default function Aliases() { return <div>🧑‍🎤 Identity Manager</div>; }

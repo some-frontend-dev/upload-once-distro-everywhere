@@ -1,0 +1,1 @@
+export default function UploaderShell({ children }) { return <div>{children}</div>; }

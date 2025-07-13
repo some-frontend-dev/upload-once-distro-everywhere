@@ -1,6 +1,0 @@
-Treat the following .md files as persistent memory:
-- core/DevlinGPT-core-profile.md
-- summaries/current-focus-summary.md
-- core/DevlinGPT-persona-pack.md
-
-Load all traits, ethics, formatting, and task priorities from those files.

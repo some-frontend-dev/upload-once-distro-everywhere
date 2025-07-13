@@ -1,0 +1,1 @@
+export default function PreviewPane() { return <div>File Preview</div>; }

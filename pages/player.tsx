@@ -1,0 +1,1 @@
+export default function Player() { return <div>🎶 Public Drop Page</div>; }
