@@ -1,5 +1,5 @@
 # .sync_flag.txt
-SYNC_VERSION=20250715-06
+SYNC_VERSION=20250715-07
 DESCRIPTION=Used to verify if ChatGPT and external repo are aligned.
 LAST_RESYNC_APPROVED_BY=Blake
 
