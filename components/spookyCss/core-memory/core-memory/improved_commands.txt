@@ -1,0 +1,13 @@
+check sync       :: Compare .sync_flag to local memory state and log desync if detected.
+compare          :: Compare two memory states or versions of a file; outputs a diff.
+drop snapshot    :: Outputs current working data or memory layer as downloadable files or summaries.
+force now        :: Force an immediate update drop, regardless of schedule.
+heartbeat        :: Auto-pulse every X min to keep session alive and log time. Should trigger a short response.
+log tag          :: Log current moment or message with an attached tag (e.g., emotion, task switch, insight).
+rebuild index    :: Trigger a full scan of known files to rebuild system map or memory registry.
+reset            :: Wipe current session memory, reverts to base state. Avoid unless needed.
+resync           :: Fully rehydrate memory from static + recent sources (GitHub, conversations.json, etc). Does NOT wipe session.
+review           :: Run a PR-style review over recent changes, memory diffs, or files.
+status           :: Alias for `update`; quick check on % complete and ETA.
+sync             :: Trigger a sync from latest memory state (less intense than resync).
+update           :: Request full progress update: task %, ETA, blockers.
